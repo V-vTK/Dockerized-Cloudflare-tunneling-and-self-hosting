@@ -12,7 +12,7 @@ This is *free* but requires a few things:
 
 Domain name (costs money about 10€/yr)
 
-Computer (preferably a seperate one but for trying out this will work on your main computer - skip the SSH setup)
+Computer (preferably a separate one but for trying out this will work on your main computer - skip the SSH setup)
 
 Cloudflare account
 
@@ -22,12 +22,12 @@ Start with your chosen OS – RHEL, Ubuntu Server, or, for trying out Ubuntu Des
 
 
 ## SSH
-If you dont have the software for a SSH server:
+If you don't have the software for a SSH server:
 ```sudo apt update```
 ```sudo apt install openssh-server```
 ```sudo systemctl restart ssh```
 ```sudo ufw allow OpenSSH```
-This is the bare mimimum set up ssh keys and other settings
+This is the bare minimum set up ssh keys and other settings
 
 You can find out the IP via ```ping <hostname>``` or on the server ```ip a```
 e.g. ```ping vv-NUC```
