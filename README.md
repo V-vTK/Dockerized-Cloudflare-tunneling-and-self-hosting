@@ -156,3 +156,6 @@ Change the .envexample to .env and insert your credentials: api_token (not api_k
 run ```docker compose up -d``` inside the folder
 
 Now the IP_manager container will check your IP every 5 minutes and update the IP inside the Cloudflare public hostnames if the IP has changed.
+Works using the Cloudflare API v4: https://cfapi.centminmod.com/#cloudflare-tunnel-configuration-put-configuration
+
+
