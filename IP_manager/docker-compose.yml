@@ -1,0 +1,8 @@
+version: '3'
+name: ip_manager
+services:
+  app:
+    build:
+      context: .
+    restart: unless-stopped
+
